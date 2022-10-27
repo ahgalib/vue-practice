@@ -90,9 +90,10 @@ nav a:first-of-type {
 import { RouterLink, RouterView } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import Customer from "./components/Customer.vue"; 
-
-  
-
+import Employee from './components/Employee.vue';
+import Counter from './components/Counter.vue';
+import Greeting from './components/Greeting.vue';
+import Form from './components/Form.vue';
 </script>
 
 <template>
@@ -100,6 +101,10 @@ import Customer from "./components/Customer.vue";
   <button class="btn btn-primary"> Click</button>
   <i class="fa fa-"></i>
 
-  <Customer name="Galib" age = "43"/>
+  <Customer name="Galib" age = "43" hobby="watching sports"/>
+  <Employee/>
+  <Counter/>
+  <Greeting/>
+  <Form/>
 </template>
 
